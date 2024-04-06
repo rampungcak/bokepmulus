@@ -1,5 +1,5 @@
 import "./globals.css";
-import Script from 'next/script';
+import Script from "next/script";
 import type { Metadata } from "next";
 import { Nunito } from "next/font/google";
 import { SITENAME } from "@/lib/constants";
@@ -10,7 +10,7 @@ const font = Nunito({ subsets: ["latin"] });
 export const metadata: Metadata = {
     title: `${SITENAME} - Video Bokep Indo Viral Terbaru`,
     description: `${SITENAME} Video bokep indo jepang indonesia barat terbaru viral korea simontok china tante live sma paksa ngentot abg jilbab cewek bocil smp pijat pelajar.`,
-    metadataBase: new URL("https://bokepcrot.pages.dev"),
+    metadataBase: new URL("https://bokepmulus.pages.dev"),
     alternates: {
         canonical: `/`,
     },
@@ -21,8 +21,8 @@ export const metadata: Metadata = {
         type: `website`,
     },
     verification: {
-        google: 'MfI_pPVFcnSECBxNWF0Xu63YQBPGdLXTRnhnJfJmxlo',
-        yandex: '5e7fd47c2f92b338',
+        google: 'AR-iCRxswVoHBwiUaFvEAcpoTy3O35QarTebrJ9Lb30',
+        yandex: '360113f100d77407',
     },
 };
 
@@ -38,35 +38,35 @@ export default function RootLayout({
         "@type": "Organization",
         "name": `${SITENAME}`,
         "description": `${SITENAME} Video bokep indo jepang indonesia barat terbaru viral korea simontok china tante live sma paksa ngentot abg jilbab cewek bocil smp pijat pelajar.`,
-        "logo": "https://bokepcrot.pages.dev/favicon.ico",
-        "url": "https://bokepcrot.pages.dev",
+        "logo": "https://bokepmulus.pages.dev/favicon.ico",
+        "url": "https://bokepmulus.pages.dev",
         "founder":{
             "@type":"Person",
             "name":"admin",
-            "url":"https://bokepcrot.pages.dev"
+            "url":"https://bokepmulus.pages.dev"
             },
-            "foundingDate":"2024-01-09"
+            "foundingDate":"2024-01-21"
         }
         const jsonLd1 = {
             "@context": "https://schema.org",
         "@type": "WebPage",
         "name": `${SITENAME}`,
-        "url": "https://bokepcrot.pages.dev",
+        "url": "https://bokepmulus.pages.dev",
         "description": `${SITENAME} Video bokep indo jepang indonesia barat terbaru viral korea simontok china tante live sma paksa ngentot abg jilbab cewek bocil smp pijat pelajar.`,
-        "image": "https://bokepcrot.pages.dev/favicon.ico",
+        "image": "https://bokepmulus.pages.dev/favicon.ico",
         "potentialAction":{
             "@type":"ReadAction",
-            "target":"https://bokepcrot.pages.dev/"}
+            "target":"https://bokepmulus.pages.dev/"}
         }
         const jsonLd2 = {
             "@context": "https://schema.org",
         "@type": "WebSite",
         "name": `${SITENAME}`,
-        "url": "https://bokepcrot.pages.dev",
+        "url": "https://bokepmulus.pages.dev",
         "description": `${SITENAME} Video bokep indo jepang indonesia barat terbaru viral korea simontok china tante live sma paksa ngentot abg jilbab cewek bocil smp pijat pelajar.`,
         "potentialAction": { 
         "@type": "SearchAction", 
-          "target": "https://bokepcrot.pages.dev/?q={search_term}", 
+          "target": "https://bokepmulus.pages.dev/?q={search_term}", 
             "query-input": "required name=search_term"}
         }
     return (
@@ -93,7 +93,7 @@ export default function RootLayout({
                     {children}
                 </ThemeProvider>
             </body>
-<script type="text/javascript" src="https://js.juicyads.com/jp.php?c=947403z2v256s2x2w264x294&u=http%3A%2F%2Fwww.juicyads.rocks"></script>
+<Script src="https://js.juicyads.com/jp.php?c=947403z2v256s2x2w264x294&u=http%3A%2F%2Fwww.juicyads.rocks"/>
         </html>
     );
 }
